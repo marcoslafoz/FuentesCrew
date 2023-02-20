@@ -16,10 +16,14 @@ echo - - - - - - - - - - - - - - - - - - - - - - - - - -
 echo Actualizando mods de Fuentes Crew
 echo - - - - - - - - - - - - - - - - - - - - - - - - - - 
 copy FuentesCrew-mods\*.jar %APPDATA%\.minecraft\mods\
-cd %APPDATA%\.minecraft\mods\
+echo - - - - - - - - - - - - - - - - - - - - - - - - - - 
+echo Borrando dependencias
+del FuentesCrew-mods.zip
+del FuentesCrew-mods
 echo - - - - - - - - - - - - - - - - - - - - - - - - - - 
 echo Mods instalados: 
-echo - - - - - - - - - - - - - - - - - - - - - - - - - - 
+echo - - - - - - - - - - - - - - - - - - - - - - - - - -
+cd %APPDATA%\.minecraft\mods\ 
 dir /b
 echo - - - - - - - - - - - - - - - - - - - - - - - - - - 
 echo @author: marcoslafoz
