@@ -15,7 +15,7 @@ powershell -command "Expand-Archive FuentesCrew-mods.zip FuentesCrew-mods"
 echo - - - - - - - - - - - - - - - - - - - - - - - - - - 
 echo Actualizando mods de Fuentes Crew
 echo - - - - - - - - - - - - - - - - - - - - - - - - - - 
-copy FuentesCrew-mods\FuentesCrew-mods\*.jar %APPDATA%\.minecraft\mods\
+copy FuentesCrew-mods\*.jar %APPDATA%\.minecraft\mods\
 cd %APPDATA%\.minecraft\mods\
 echo - - - - - - - - - - - - - - - - - - - - - - - - - - 
 echo Mods instalados: 
