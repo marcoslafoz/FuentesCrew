@@ -4,3 +4,5 @@
 * Descomprimir `FuentesCrew-installer.zip`
 * Abrir carpeta
 * Ejecutar `Fuentes Crew - Installer`
+* Click en `Más información`
+* Click en `Ejecutar de todas formas`
